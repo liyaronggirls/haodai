@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+.big{
+    width:350px;
+    height:400px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    margin:50px auto;
+    .dai{
+        margin-top: 20px;
+        .div1{
+            color: #fff;
+            p{
+                float:left;
+                &:nth-of-type(2){
+                    float:right;
+                }
+            }
+        }
+        .div2{
+            background: #fff;
+            position: relative;
+            .ul2{
+                width:349px;
+                position: absolute;
+                top:50px;
+                left:0;
+                z-index: 10;
+                background: #fff;
+                border: 1px solid #E2E2E2;
+                display: none;
+                li{
+                    line-height: 30px;
+                }
+                li:hover{
+                    background: deepskyblue;
+                    opacity: 0.5;
+                    
+                }
+            }
+            .ul1{
+                width:349px;
+                position: absolute;
+                top:50px;
+                left:0;
+                z-index: 10;
+                background: #fff;
+                border: 1px solid #E2E2E2;
+                display: none;
+                
+                li{
+                    line-height: 30px;
+                }
+                li:hover{
+                    background:#C6D6E7;
+                    opacity: 0.5;
+                    
+                }
+            }
+            p{
+                float:left;
+                height:50px;
+                line-height: 50px;
+                
+                &:nth-of-type(1){
+                    width:294px;
+                    font-size: 18px;
+                    color: #333;
+                    border-right:1px solid #E2E3E4;
+                    input{
+                        font-size: 18px;
+                    }
+                    span{
+                        float:right;
+                        margin-right: 10px;
+                    }
+                }
+                &:nth-of-type(2){
+                    width:50px;
+                    text-align: center;
+                    i{
+                        font-size: 18px;
+                        color:#696969;
+                    }
+                }
+            }
+        }
+    }
+    h1{
+        color:#fff;
+    }
+    .search{
+        margin-top:20px;
+        background: #0094EF;
+        padding:10px;
+        text-align: center;
+        a{
+            text-decoration: none;
+            color:#fff;
+            font-size: 18px;
+        }
+    }
+    .xinxi{
+        margin-top:20px;
+        font-size: 14px;
+        text-align: center;
+        color:#696969;
+    }
+}

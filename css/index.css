@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.big {
+  width: 350px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 50px auto; }
+  .big .dai {
+    margin-top: 20px; }
+    .big .dai .div1 {
+      color: #fff; }
+      .big .dai .div1 p {
+        float: left; }
+        .big .dai .div1 p:nth-of-type(2) {
+          float: right; }
+    .big .dai .div2 {
+      background: #fff;
+      position: relative; }
+      .big .dai .div2 .ul2 {
+        width: 349px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 10;
+        background: #fff;
+        border: 1px solid #E2E2E2;
+        display: none; }
+        .big .dai .div2 .ul2 li {
+          line-height: 30px; }
+        .big .dai .div2 .ul2 li:hover {
+          background: deepskyblue;
+          opacity: 0.5; }
+      .big .dai .div2 .ul1 {
+        width: 349px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 10;
+        background: #fff;
+        border: 1px solid #E2E2E2;
+        display: none; }
+        .big .dai .div2 .ul1 li {
+          line-height: 30px; }
+        .big .dai .div2 .ul1 li:hover {
+          background: deepskyblue;
+          opacity: 0.5; }
+      .big .dai .div2 p {
+        float: left;
+        height: 50px;
+        line-height: 50px; }
+        .big .dai .div2 p:nth-of-type(1) {
+          width: 294px;
+          font-size: 18px;
+          color: #333;
+          border-right: 1px solid #E2E3E4; }
+          .big .dai .div2 p:nth-of-type(1) input {
+            font-size: 18px; }
+          .big .dai .div2 p:nth-of-type(1) span {
+            float: right;
+            margin-right: 10px; }
+        .big .dai .div2 p:nth-of-type(2) {
+          width: 50px;
+          text-align: center; }
+          .big .dai .div2 p:nth-of-type(2) i {
+            font-size: 18px;
+            color: #696969; }
+  .big h1 {
+    color: #fff; }
+  .big .search {
+    margin-top: 20px;
+    background: #0094EF;
+    padding: 10px;
+    text-align: center; }
+    .big .search a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px; }
+  .big .xinxi {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #696969; }
+
+/*# sourceMappingURL=index.css.map */
